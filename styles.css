@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000; /* Black background color */
+  color: #333333; /* Dark text color for readability on white container */
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 60em;
+  margin: 2em auto;
+  padding: 2em;
+  background: #ffffff; /* White background for main container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-top: 8px solid #6a1b9a; /* Accent color */
+}
+
+#head p {
+  font-size: 2em;
+  color: #6a1b9a; /* Accent color */
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+section {
+  margin: 1.5em 0;
+}
+
+section p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #6a1b9a; /* Accent color */
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #f9f9fc; /* Light background color */
+}
+
+label {
+  font-size: 1em;
+  margin-top: 1em;
+  display: block;
+  color: #333333; /* Dark text color */
+}
+
+button {
+  background-color: #007bff; /* Accent color */
+  color: #ffffff; /* White text color */
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  color: #cf6679; /* Light red for error messages */
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.output {
+  background: #f9f9fc; /* Light background color */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  word-wrap: break-word;
+  margin-top: 1em;
+  color: #333333; /* Dark text color */
+}
+
+.output a {
+  display: block;
+  color: #007bff; /* Accent color for links */
+  text-decoration: none;
+}
+
+.output a:hover {
+  text-decoration: underline;
+}

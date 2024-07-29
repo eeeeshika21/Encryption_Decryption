@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Encryption_Decryption</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Added Google Font -->
+</head>
+
+<body>
+	<main>
+		<div id="head">
+			<p>Encryption and Decryption</p>
+		</div>
+		<section>
+			<p>Input</p>
+			<textarea id="data-input" name="data" class="input content"></textarea>
+		</section>
+		<section>
+			<label for="secret">
+				Key
+				<input type="text" id="secret" autocomplete="false" name="secret" value="" />
+			</label>
+			<button id="encrypt">Encrypt</button>
+			<hr />
+			<label for="initialization-vector">
+				Initialization Vector (IV)
+				<input type="text" id="iv" autocomplete="false" name="iv" value="" />
+			</label>
+			<label for="linkify">
+				Linkify text links (http/https)
+				<input id="linkify" type="checkbox" name="linkify" checked />
+			</label>
+			<button id="decrypt">Decrypt</button>
+			<p id="message"></p>
+		</section>
+		<section>
+			<p>Output</p>
+			<div id="data-output" class="output content"></div>
+		</section>
+	</main>
+	<script type="text/javascript" src="code.js"></script>
+</body>
+
+</html>
